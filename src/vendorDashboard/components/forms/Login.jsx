@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { API_URL } from '../../data/apiPath';
-import { ThreeCircles } from 'react-loader-spinner';
+import { ClipLoader } from 'react-spinners';
 
 
 const Login = ({showWelcomeHandler}) => {

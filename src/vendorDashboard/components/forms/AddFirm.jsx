@@ -1,7 +1,7 @@
 
 import React, {useState} from 'react'
 import { API_URL } from '../../data/apiPath';
-import { ThreeCircles } from 'react-loader-spinner';
+import { ClipLoader } from 'react-spinners';
 
 
 const AddFirm = () => {
@@ -104,7 +104,7 @@ const AddFirm = () => {
   return (
         <div className="firmSection">
    {loading &&        <div className="loaderSection">
-        <ThreeCircles
+        <ClipLoader
           visible={loading}
           height={100}
           width={100}
