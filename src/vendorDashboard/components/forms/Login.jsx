@@ -55,7 +55,7 @@ const Login = ({showWelcomeHandler}) => {
   return (
     <div className="loginSection">
 {loading &&        <div className="loaderSection">
-        <ThreeCircles
+        <ClipLoader
           visible={loading}
           height={100}
           width={100}
